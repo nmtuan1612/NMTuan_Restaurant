@@ -6,7 +6,7 @@ import './Intro.css'
 
 const Intro = () => { 
   const [play, setPlay] = useState(false)
-  const [viewOverlay, setViewOverlay] = useState(true)
+//   const [viewOverlay, setViewOverlay] = useState(true)
   const vidRef = useRef()
 
   const handleVideo = () => {
